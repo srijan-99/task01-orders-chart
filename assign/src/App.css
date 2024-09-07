@@ -1,0 +1,100 @@
+body {
+  background-color: #1e1e2f;
+  color: #dcdcdc;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  color: #f0f0f0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+select {
+  background-color: #3a3b4f;
+  color: #dcdcdc;
+  border: 1px solid #666680;
+  margin-bottom: 20px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+select option {
+  background-color: #3a3b4f;
+  color: #dcdcdc;
+}
+
+button,
+.btn-primary {
+  background-color: #5173c3;
+  border-color: #5173c3;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+button:hover,
+.btn-primary:hover {
+  background-color: #3e5aa8;
+  border-color: #3e5aa8;
+}
+
+.modal-content {
+  background-color: #2a2b3d;
+  color: #dcdcdc;
+}
+
+.form-control {
+  background-color: #3a3b4f;
+  color: #ffffff;
+  border: 1px solid #666680;
+}
+
+.form-label {
+  color: #ffffff;
+}
+
+.alert-warning {
+  background-color: #ffbb33;
+  color: #333333;
+}
+
+.alert-warning .btn-primary {
+  background-color: #ffa500;
+  border-color: #ffa500;
+}
+
+.alert-warning .btn-primary:hover {
+  background-color: #ff7700;
+  border-color: #ff7700;
+}
+
+.alert-warning p {
+  color: #333333;
+}
+
+.Line {
+  background-color: #2a2b3d;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+canvas {
+  background-color: #1e1e2f;
+}
+
+.line-chart .chartjs-render-monitor {
+  background-color: #2a2b3d;
+}
+
+.line-chart .chartjs-tooltip {
+  background-color: #3a3b4f;
+  border-color: #666680;
+  color: #ffffff;
+}
